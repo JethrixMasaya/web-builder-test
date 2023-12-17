@@ -1,5 +1,5 @@
 body{
-    margin: 0.2em;
+    margin: 0;
     font-family: 'Inter', sans-serif;
     
 }
@@ -12,11 +12,14 @@ header{
     grid-template-columns: repeat(9,1fr);
     font-size: 0.8em;
     position:absolute;
-    margin: 0 5% 0 5%;
+    
+    background-color: rgba(250, 235, 215, 0.37);
+    padding: 2em;
+    width: 100vw;
 }
 
 #frontPage{
-    height: 60vh;
+    height: 70vh;
     background-image: url("./assets/wideInterior.jpg");
 display: flex;
 flex-direction: column;
@@ -28,7 +31,7 @@ align-items: center;
 
 
 #screenPicture{
-    height: 90vh;
+    height: 80vh;
     display: flex;
     margin: auto;
   
@@ -37,6 +40,10 @@ align-items: center;
 #searchBar{
     background-color: cornflowerblue;
     height: 5vh;
+    padding: 0.5em;
+    position: sticky;
+    top:0;
+    
 
 }
 
@@ -49,9 +56,10 @@ align-items: center;
 }
 
 
-.section1 h3{
+.section1 h1{
     grid-column: span 2;
     text-align: center;
+    font-size: 3em;
 }
 
 .section1 div{
@@ -61,8 +69,12 @@ align-items: center;
 }
 
 .section1 img{
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
+}
+
+.section1 h4{
+    font-size: 2em;
 }
 
 .checkeredGrid{
@@ -80,7 +92,7 @@ align-items: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  
+    padding: 2%;
 }
 
 
@@ -91,21 +103,125 @@ align-items: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 1%;
+    padding: 2%;
 }
 
 
 
 #section2 div:nth-child(2){
+    background-image: url("./assets/girlsitting.jpg");
+    background-size: contain;
+}
+
+
+#section2 div:nth-child(3){
     background-image: url("./assets/sofa.jpg");
     background-size: contain;
 }
 
 
 
+#section2 div:nth-child(6){
+    background-image: url("./assets/interior.jpg");
+    background-size: contain;
+}
 
-#lastPart{
+
+#section2 div:nth-child(7){
     background-image: url("./assets/dining.jpg");
+    background-size: contain;
+}
+
+
+
+
+.listingGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10%;
+    text-align: center;
+
+}
+
+
+.listingGrid h2{
+    grid-column: span 3;
+  
+}
+
+
+#section3 section:nth-child(1){
+    background-image: url("./assets/multiplePeople.jpg");
+    background-size: contain;  
+}
+
+
+#section3 section:nth-child(2){
+    background-image: url("./assets/lookingAtIpad.jpg");
+    background-size: contain;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section4 div:nth-child(2){
+    background-image: url("./assets/standingGirl.jpg");
+    background-size: contain;  
+}
+
+#section4 div:nth-child(5){
+   overflow: hidden;
+}
+
+
+#section4 div:nth-child(6){
+  
+    background-image: url("./assets/lookingAtIpad.jpg");
+    background-size: contain;  
+ }
+
+
+
+
+ 
+#section5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 7%;
+
+}
+
+#section5 section{
+    grid-column: span 3;
+}
+
+
+
+
+#section5-5 div:nth-child(6){
+  
+    background-image: url("./assets/topView.jpg");
+    background-size: contain;  
+ }
+
+
+
+
+ 
+ 
+#lastPart{
+    background-image: url("./assets/verandaView.jpeg");
     height: 60vh;
     background-size: contain;
     display: flex;
