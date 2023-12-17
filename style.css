@@ -1,0 +1,151 @@
+body{
+    margin: 0.2em;
+    font-family: 'Inter', sans-serif;
+    
+}
+h1,h2,h3,h4{
+    font-family: 'Lusitana', serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    font-size: 0.8em;
+    position:absolute;
+    margin: 0 5% 0 5%;
+}
+
+#frontPage{
+    height: 60vh;
+    background-image: url("./assets/wideInterior.jpg");
+display: flex;
+flex-direction: column;
+background-size: cover;
+justify-content: center;
+align-items: center;
+
+}
+
+
+#screenPicture{
+    height: 90vh;
+    display: flex;
+    margin: auto;
+  
+}
+
+#searchBar{
+    background-color: cornflowerblue;
+    height: 5vh;
+
+}
+
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      margin: 5%;
+      margin-bottom: 20%;
+}
+
+
+.section1 h3{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.section1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 img{
+    height: 100px;
+    width: 100px;
+}
+
+.checkeredGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      margin: 12%;
+      margin-bottom: 20%;
+
+}
+
+.checkeredGridItem{
+    border: solid 1px black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+.checkeredGridItemLong{
+    border: solid 1px black;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+}
+
+
+
+#section2 div:nth-child(2){
+    background-image: url("./assets/sofa.jpg");
+    background-size: contain;
+}
+
+
+
+
+#lastPart{
+    background-image: url("./assets/dining.jpg");
+    height: 60vh;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+footer div{
+padding: 5%;
+text-align: justify;
+}
+
+#AddressInfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+#AddressInfo div{
+
+    margin: 3%;
+    text-align: left;
+
+}
+
+
+#FinalTag{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+    
+    text-align: center;
+    grid-column: span 2;
+   
+}

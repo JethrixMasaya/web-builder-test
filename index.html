@@ -2,8 +2,18 @@
 <html>
   <head>
     <title>Title of the document</title>
-  </head>
+    <link rel="stylesheet" href="style.css">
+
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+
   <body>
+
+
+<!-- HEADER PART -->
+
     <header>
 <div><img/> Sereno</div>
 <div>MEET THE TEAM</div>
@@ -17,43 +27,68 @@
 
     </header>
 
+
+
+    <!-- FRONT PAGE -->
+    <div id="frontPage">
+
     <h1>SERVICE</h1>
 
-    <div> book an appointment <img/></div>
+   
+
+  </div>
+  <div id ="searchBar"> book an appointment <img/></div>
+
+
+    <!--section 1-->
+
+
+    <div class="section1" >
 
     <h3>Comprehensive Marketing Plan</h3>
 
     <div> 
-        <img/> 
+        <img src="./assets/mail.png"/>
         <h4>Responsive</h4>
          <p>I am always available via phone, text, or email.</p>
      </div>
      <div> 
-        <img/> 
+        <img src="./assets/flag.png"/> 
         <h4>Syndication</h4>
          <p>I market your property locally, nationally, and internationally</p>
      </div>
-
-     <img/>
-
+    </div>
 
 
- <div> 
-        <img/> 
-        <h4>Responsive</h4>
-         <p>I am always available via phone, text, or email.</p>
+     <img src="./assets/screen.PNG"  id="screenPicture"/>
+
+ <div class="section1"> 
+    <div> 
+        <img src="./assets/place.png"/> 
+        <h4>Virtual Tour</h4>
+         <p>Let's make your home stand out with a high quality virtual tour.</p>
      </div>
      <div> 
-        <img/> 
-        <h4>Syndication</h4>
-         <p>I market your property locally, nationally, and internationally</p>
+        <img src="./assets/photo.png"/> 
+        <h4>Photography</h4>
+         <p>Beatiful, high-end photography is a central part of our marketing plan for your property.</p>
      </div>
 
+    </div>
 
 
-     <div>
-<div><h4>Decor Guidance</h4></div>         <div></div>
-<div></div>                                <div><h4>
+
+
+    
+    <!--section 2 with CHECKERED GRID-->
+
+
+     <div id="section2" class="checkeredGrid">
+<div class="checkeredGridItem"><h4>Decor Guidance</h4></div>     
+<div class="checkeredGridItem"></div>   
+<div class="checkeredGridItem"></div>                             
+   <div class="checkeredGridItem">
+  <h4>
     My Staging Expertise</h4>
 <ul><li>Unclutter and organize your home</li>
     <li>Neatly arrange drawers and cabinets</li>
@@ -61,12 +96,17 @@
     <li>Play soft music</li>
  </ul>
 </div>  
+<div class="checkeredGridItem"><h4>Intentional ​​​​​​​Layout</h4></div>
 
-<div></div>         <div><h4>Intentional ​​​​​​​Layout</h4></div>
+<div class="checkeredGridItem"></div>       
 
-<div></div>
 
-<div>
+
+
+<div class="checkeredGridItem"></div>
+
+
+<div class="checkeredGridItem">
 <ul><li>Unclutter and organize your home</li>
     <li>Neatly arrange drawers and cabinets</li>
     <li>Keep pets outdoors or off the premises</li>
@@ -76,6 +116,14 @@
 
      </div>
 
+
+
+
+
+
+
+
+    <!--section 3-->
 
      <div>
 <h2>The Selling Process</h2>
@@ -90,9 +138,7 @@
 
 
      <div>
-
-
-      <h1>The Buying Proccess</h1>
+ 
       <h2>The Selling Process</h2>
 <div><h1>1</h1> <p>INITIAL CONSULTATION & PLANNING</p></div>
 <div><h1>2</h1> <p>SEARCH FOR A HOME & GET PRE-APPROVED</p></div>
@@ -100,17 +146,28 @@
 <div><h1>4</h1> <p>COMPLETE SETTLEMENT PROCESS</p></div>
      </div>
 
-     <div>
-      <div><h4>Over 33 Years of Real Estate Success</h4>
+
+
+
+
+
+
+
+
+
+    <!--section 4  with CHECKERED GRID-->
+
+     <div id="section4" class="checkeredGrid">
+      <div class="checkeredGridItem"><h4>Over 33 Years of Real Estate Success</h4>
       <p>We provide every one of our clients with a level of service they won’t find anywhere else. We give them what they need, often before they know they need it. ​​​​​​​In real estate, almost everything can be negotiated. When you choose Hansen Partners It is experience is 100% nonnegotiable. ​​​​​​​ ​​​​​​​And it’s an experience like no other.</p>
     </div>
-      <div></div>
-      <div></div>
-      <div>
+      <div class="checkeredGridItem"></div>
+      <div class="checkeredGridItem"></div>
+      <div class="checkeredGridItem">
         <h4>Over 33 Years of Real Estate Success</h4>
       <p>We combine data gained from your home’s Comparative Market Analysis with local market research to create a marketing plan designed to help you meet your selling goals. Your home’s carefully designed plan will include a range of online, print, and other marketing tools targeted to the best-qualified pool of buyers. ​​​​​​​ Successfully marketing a home in today’s real estate environment requires a firm with experience and flexibility. Hansen Partners provides both. </p>
       </div>
-      <div>
+      <div class="checkeredGridItem">
         <h4>The Hansen Partners Communications Tablet</h4>
         <p>We have created this as a wonderful tool so that we can communicate with you daily, provide you with updates on what is happening with your home. We are available at the with a click of your tablet.</p>
      <p>Benifits</p>
@@ -122,11 +179,18 @@
 </ul>
 <p>We believe that transparency and guiding you and your family through the process is key to having the best experience.  During these uncertain times. It is a good feeling to know you have some one with a proven track record you can count on.  We will be here to handle your needs during the Real Estate process.  We think of it before a need even arises. Because, that is just what we do.  Who you work with does matter! </p>
       </div>
-      <div></div>
+      <div class="checkeredGridItem"></div>
      </div>
 
 
 
+
+
+
+
+
+     
+    <!--section 5-->
      <div>
       <h4>We Market Your Home to The World</h4>
       <p>Our Online Marketing Strategy</p>
@@ -152,24 +216,31 @@
      <img/>
 
 
-     <div>
-      <div>
-        <div><img/><img/><img/>
-          <p></p></div>
+
+
+
+    <!--section 5.5    with CHECKERED GRID-->
+    <div><img/><img/><img/>
+      <p></p></div>
+     <div id="section5-5" class="checkeredGrid">
+      <div class="checkeredGridItemLong">
+       
         <p>Leading Real Estate Companies of The World® & Luxury Portfolio International</p>      
-      </div>
+     
       <p>JRockcliff is a founding member of Luxury Portfolio International®, the luxury division of Leading Real Estate Companies of the World®. With more than 500 member firms around the world, Our luxury listings are exposed to a vast global audience and reach potential buyers and investors in over 50 countries.</p>
       <p>Who's Who in Luxury Real Estate   </p>
       <p>Who’s Who in Luxury Real Estate is a global collection of luxury real estate brokers.   </p>
-      <div>    </div>
-      <div>   </div>
-      <div>
+    </div>
+      
+      <div class="checkeredGridItemLong">    </div>
+      <div class="checkeredGridItemLong">   </div>
+      <div class="checkeredGridItemLong">
         <p>Through our international affiliations, we have a strong presence in over 50 countries. Our luxury listings are sent to prominent international real estate sites, reaching over 70 million potential buyers and investors worldwide through our relationships with:</p>
         <div><img/><img/><img/>
           <p>We also have several well-positioned affiliate offices in China, providing our clients with access to buyers in Hong Kong, Shanghai, and Beijing. </p></div>
       
       </div>
-      <div>
+      <div class="checkeredGridItemLong">
         <div><img/> <h4>Responsive</h4> <p>I am always available via phone, text, or email to answer your questions in a timely manner.</p></div>
         <div><img/> <h4>Syndication </h4> market your property locally, nationally, and internationally.</p></div>
         <div><img/> <h4>Virtual Tour</h4> <p>Let’s make your home stand out with a high quality virtual tour.</p></div>
@@ -177,24 +248,31 @@
         
       
       </div>
-      <div>
+      <div class="checkeredGridItemLong">
       
       </div>
      </div>
 
 
-     <div>
+
+
+
+    <!--section 6 (LAST PART)-->
+
+     <div id="lastPart">
       <h2>Work With Us</h2>
       <p>With decades of experience in luxurious Tri Valley real estate, our team is here to ensure that your dreams are a reality. Let us guide you through your home buying journey, contact us today!</p>
-     <button>CONTACT US</button>
-
-     
+     <button>CONTACT US</button>    
     </div>
+
+
+
      
 
 
 
 
+    <!--FOOTER-->
     <footer>
 
 <div><h4>Julie Hansen Partnership</h4>
@@ -210,20 +288,24 @@
   <button>SUBSCRIBE</button>
 </div>
 
-<div>
+<div id="AddressInfo">
+  <div >
   <p>ADDRESS</p>
   <p>4733 Chabot Drive #100
     Pleasanton, CA 94588</p>
     <p>​​​​​​​Julie Hansen-Orvis | CA DRE# 00934447</p>
-  <p>CONTACT INFORMATION</p>
+  </div>
+  <div>
+    <p>CONTACT INFORMATION</p>
   <p>(925) 980-4925</p>
-  <p>hansenpartners.re@gmail.com</p>
+  <p>hansenpartners.re@gmail.com</p></div>
 </div>
 
 <div><img/><img/><img/><img/><img/></div>
 
-<div><p>Website Designed & Developed by Luxury Presence</p></div>
-<p>Copyright 2023 | Privacy Policy</p>
+<div id="FinalTag"><p>Website Designed & Developed by Luxury Presence</p>
+  <p>Copyright 2023 | Privacy Policy</p></div>
+
     </footer>
    
   </body>
