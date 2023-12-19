@@ -1,6 +1,8 @@
 let prevScrollPos = window.scrollY;
+let showing=true;
+const myBody = document.body.innerHTML;
 
-
+const booking = document.getElementById("booking");
 const mysearchbar = document.getElementById("searchBar");
 const mynavbar = document.getElementById("navbar");
 
@@ -13,7 +15,7 @@ window.addEventListener('scroll', function() {
     mynavbar.style.position = "fixed";
     mynavbar.style.Top = "-3em";
     mynavbar.style.backgroundColor = "var(--dark-color)";
-    mysearchbar.style.top ="2em";
+    mysearchbar.style.top ="3em";
    
   
   } else {
@@ -29,20 +31,23 @@ window.addEventListener('scroll', function() {
 
 
 
+function bookingShow() {
 
-let i=true;
-function booking() {
-
-    if(i)
+    if(showing)
     {
-        alert("Hello! I am an alert box!!");
-        i =false;
+        booking.style.display = "none";
+        document.body.style.overflowY = "scroll";
+        showing =false;
       
       }
       else{
-        alert("Hello! !!");
-       i=true;
+        booking.style.display = "block";
+        document.body.style.overflowY = "hidden";
+        showing =true;
       }
       
     
     }
+
+
+ 

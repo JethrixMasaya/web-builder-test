@@ -14,23 +14,40 @@
 
 
     <div id="booking">
+      <section>
+      
       <div>
-          <img/>
+          <img src="./assets/phone.png"/>
           <p>(925) 471-5600</p>
-          <img/>
+          <img src="./assets/mailwhite.png"/>
           <p>Hansenpartners.re@gmail.com</p>
-          <img/>
+          <img src="./assets/placeWhite.png"/>
           <p>4337 Chabot Drive, Pleasanton, CA 94588Julie Hansen-Orvis | CA DRE# 00934447</p>
       </div>
 
        <div >
+        <img src ="./assets/x.png" id="floatingButton" onclick="bookingShow()"/>
+
         <h2>Submit A Message</h2>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+   
+  
+  
+  </form>
+</div>
 
         <p>By providing Julie Hansen Partnership your contact information, you acknowledge and agree to our Privacy Policy and consent to receiving marketing communications, including through automated calls, texts, and emails, some of which may use artificial or prerecorded voices. This consent isn’t necessary for purchasing any products or services and you may opt out at any time. To opt out from texts, you can reply, ‘stop’ at any time. To opt out from emails, you can click on the unsubscribe link in the emails. Message and data rates may apply.</p>
         
         <button>Send</button>
       </div>
-      
+    </section>
     </div>
 
 <!-- HEADER PART -->
@@ -92,7 +109,7 @@
   </form>
 
 
-  <div id="bookAppointment"  onclick="booking()">
+  <div id="bookAppointment"  onclick="bookingShow()">
   <h4 class="sickHover">BOOK AN APPOINTMENT</h4>
   <img src="./assets/arrow.png"/>
 </div>
